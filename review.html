@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio UI Review Assistant - a simple frontend UI review demo.">
+  <title>Portfolio UI Review Assistant</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero-card">
+      <p class="eyebrow">Codex Final Project</p>
+      <h1>Portfolio UI Review Assistant</h1>
+      <p class="intro">A simple interface for reviewing a portfolio UI across responsive design, accessibility, usability, typography, spacing, and visual consistency.</p>
+    </section>
+
+    <section class="review-card" aria-labelledby="review-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Review Workspace</p>
+          <h2 id="review-title">Run a UI review</h2>
+        </div>
+        <span class="status" id="status">Ready</span>
+      </div>
+
+      <form id="reviewForm">
+        <label for="projectName">Portfolio or project name</label>
+        <input id="projectName" name="projectName" type="text" value="Personal Portfolio Website" maxlength="80" required>
+
+        <label for="focus">Review focus</label>
+        <select id="focus" name="focus">
+          <option value="all">Full UI review</option>
+          <option value="responsive">Responsive Design</option>
+          <option value="accessibility">Accessibility</option>
+          <option value="usability">Usability</option>
+        </select>
+
+        <button type="submit">Review UI</button>
+      </form>
+    </section>
+
+    <section class="results-card" id="results" aria-live="polite" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Review Results</p>
+          <h2 id="resultTitle">Portfolio UI Review</h2>
+        </div>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+      <div class="results-grid" id="resultsGrid"></div>
+    </section>
+
+    <section class="workflow-card">
+      <p class="eyebrow">Agent Workflow</p>
+      <div class="workflow">
+        <span>Plan</span><i>→</i><span>Build</span><i>→</i><span>Review</span><i>→</i><span>Correct</span><i>→</i><span>Verify</span>
+      </div>
+      <p>This demo represents the final project's workflow: define the task, build a simple version, review it with the custom frontend skill, correct issues, and verify the result.</p>
+    </section>
+  </main>
+
+  <script src="review.js"></script>
+</body>
+</html>
