@@ -1,0 +1,26 @@
+﻿[
+    {
+        "Path":  "index.html",
+        "Hash":  "DEF5FC5E3EBE805D6CEC472D5E7E3797408E0A417FE0AE4B5E3940A70C2CABFC",
+        "Length":  8885,
+        "LastWriteTimeUtc":  "2026-09-17T10:50:51.0102728Z"
+    },
+    {
+        "Path":  "script.js",
+        "Hash":  "606DE0EB68E3332A1EA519023D48E4F241A05771017CFC87F78F5ECB83707402",
+        "Length":  4210,
+        "LastWriteTimeUtc":  "2026-09-17T10:51:19.9180595Z"
+    },
+    {
+        "Path":  "scripts\\daily-project-review.ps1",
+        "Hash":  "00196BCB86FECA4A13105DC698E31114172E47FFF72541ECAD1D22129CAE54ED",
+        "Length":  3984,
+        "LastWriteTimeUtc":  "2026-09-17T10:55:31.1413059Z"
+    },
+    {
+        "Path":  "styles.css",
+        "Hash":  "21DB6F4E23B3A96C3FB2108B54EA99F5AD41E8E9D2D8781E5247D378BCF16E38",
+        "Length":  12758,
+        "LastWriteTimeUtc":  "2026-09-17T10:51:08.2083004Z"
+    }
+]
